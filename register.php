@@ -43,8 +43,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
-
-
-    </select><br>
-    <input type="submit" value="Register">
-</form>
