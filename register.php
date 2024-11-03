@@ -44,15 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!-- HTML Form for Register -->
-<h2>Register</h2>
-<form method="POST" action="">
-    <input type="text" name="username" placeholder="Username" required><br>
-    <input type="email" name="email" placeholder="Email" required><br>
-    <input type="password" name="password" placeholder="Password" required><br>
-    <select name="role" required>
-        <option value="organizer">Organizer</option>
-        <option value="student">Student</option>
+
     </select><br>
     <input type="submit" value="Register">
 </form>
